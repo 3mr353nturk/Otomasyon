@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ara32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ara32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Hareket16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Hareket16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Hareket32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Hareket32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Havale16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Havale16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Havale32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Havale32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Islem16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Islem16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Islem32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Islem32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Kartı16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Kartı16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Kartı32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Kartı32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Liste16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Liste16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka_Liste32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka_Liste32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banka32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banka32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BankaEFT16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BankaEFT16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BankaEFT32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BankaEFT32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Grup16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Grup16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Grup32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Grup32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Hareket16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Hareket16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Hareket32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Hareket32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Kart16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Kart16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Kart32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Kart32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Liste16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Liste16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari_Liste32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari_Liste32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cari32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cari32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Bankaya16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Bankaya16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Bankaya32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Bankaya32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Bordo32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Bordo32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Bordro16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Bordro16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_BordroLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_BordroLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_BordroLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_BordroLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Cariye16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Cariye16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Cariye32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Cariye32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Kendi16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Kendi16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Kendi32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Kendi32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_KendiLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_KendiLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_KendiLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_KendiLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Musteri16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Musteri16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_Musteri32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_Musteri32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_MusteriLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_MusteriLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek_MusteriLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek_MusteriLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cek32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cek32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrome32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chrome32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_Alis16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_Alis16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_Alis32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_Alis32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_AlisIade16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_AlisIade16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_AlisIade32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_AlisIade32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_Satis16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_Satis16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_Satis32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_Satis32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_SatisIade16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_SatisIade16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura_SatisIade32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura_SatisIade32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fatura32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fatura32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HesapMakinesi32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HesapMakinesi32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kapat24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kapat24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Devir16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Devir16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Devir32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Devir32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Hareket16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Hareket16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Hareket32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Hareket32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Karti16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Karti16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Karti32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Karti32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Liste16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Liste16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Liste32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Liste32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Odeme16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Odeme16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Odeme32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Odeme32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Tahsilat16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Tahsilat16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa_Tahsilat32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa_Tahsilat32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kasa32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kasa32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaydet24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kaydet24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Program_Exit16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Program_Exit16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Program_Exit32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Program_Exit32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Bankaya16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Bankaya16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Bankaya32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Bankaya32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Bordro16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Bordro16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Bordro32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Bordro32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_BordroLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_BordroLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_BordroLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_BordroLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Cariye16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Cariye16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Cariye32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Cariye32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Kendi16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Kendi16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Kendi32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Kendi32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_KendiLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_KendiLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_KendiLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_KendiLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Musteri16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Musteri16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_Musteri32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_Musteri32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_MusteriLst16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_MusteriLst16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet_MusteriLst32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet_MusteriLst32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senet32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Senet32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sil24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sil24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sil32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sil32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Bekleyen16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Bekleyen16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Bekleyen32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Bekleyen32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Iptal16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Iptal16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Iptal32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Iptal32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Onaylanan16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Onaylanan16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Onaylanan32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Onaylanan32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Sevk16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Sevk16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siparis_Sevk32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siparis_Sevk32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Grup16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Grup16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Grup32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Grup32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Hareket16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Hareket16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Hareket32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Hareket32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Kartı16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Kartı16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Kartı32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Kartı32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Liste16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Liste16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok_Liste32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok_Liste32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stok32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stok32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Word32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeni24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeni24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
