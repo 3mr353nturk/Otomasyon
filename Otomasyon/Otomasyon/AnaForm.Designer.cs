@@ -1,7 +1,10 @@
-﻿namespace Otomasyon
+﻿using Otomasyon.Fonksiyonlar;
+
+namespace Otomasyon
 {
     partial class AnaForm
     {
+        DatabaseDataContext db = new DatabaseDataContext();
         /// <summary>
         /// Required designer variable.
         /// </summary>

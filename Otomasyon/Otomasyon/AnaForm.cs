@@ -25,7 +25,8 @@ namespace Otomasyon
 
         private void AnaForm_Load(object sender, EventArgs e)
         {
-
+            if (!db.DatabaseExists())
+                db.CreateDatabase();
         }
 
         public void Mesaj(string Baslik,string Mesaj)
